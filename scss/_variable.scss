@@ -1,0 +1,47 @@
+img{
+    width: 100%;
+    height: auto;
+}
+
+// 輔助線
+.outline{
+    outline: 1px solid black;
+}
+// 按鈕版型
+.btn-top{
+    background-color: #415165;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    &:hover{
+        border: 2px solid #415165;
+        background-color: white;
+        color: #415165;
+    }
+}
+// 字體大小
+$fs-80:80px;
+$fs-32:32px;
+$fs-24:24px;
+$fs-20:20px;
+
+// 行高
+$lh-95:95px;
+$lh-48:48px;
+$lh-45:45px;
+$lh-36:36px;
+$lh-30:30px;
+$lh-29:29px;
+
+// 標準色
+$color-red:#A00404;

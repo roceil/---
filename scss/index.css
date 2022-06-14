@@ -1,0 +1,383 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.outline {
+  outline: 1px solid black;
+}
+
+.btn-top {
+  background-color: #415165;
+  border-radius: 100%;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn-top:hover {
+  border: 2px solid #415165;
+  background-color: white;
+  color: #415165;
+}
+
+header {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-bottom: 48px;
+}
+
+header h1 {
+  font-size: 80px;
+  line-height: 95px;
+  font-weight: bold;
+  width: 274px;
+  margin-bottom: 24px;
+}
+
+header hr {
+  margin-bottom: 48px;
+}
+
+header img {
+  width: 324px;
+}
+
+main {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.profile {
+  margin-bottom: 80px;
+}
+
+.profile .profile-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.profile .profile-title h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.profile .profile-title sub {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+  color: #A00404;
+}
+
+.profile .profile-txt p {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+.education .education-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.education .education-title h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.education .education-title sub {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+  color: #A00404;
+}
+
+.education .education-txt p {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+.education .education-skills {
+  background: #415165 0% 0% no-repeat padding-box;
+  width: 100%;
+  margin-top: 72px;
+  padding: 24px 102px 52px;
+  margin-bottom: 80px;
+}
+
+.education .education-skills .education-skills-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.education .education-skills .education-skills-title h3 {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  margin-right: 16px;
+}
+
+.education .education-skills .education-skills-title sub {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.education .education-skills hr {
+  margin-bottom: 40px;
+}
+
+.education .education-skills .education-skills-txt {
+  width: 224px;
+  margin: 0 auto;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+
+.education .education-skills li {
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.work-experience {
+  margin-bottom: 72px;
+}
+
+.work-experience .work-experience-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.work-experience .work-experience-title h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.work-experience .work-experience-title sub {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+  color: #A00404;
+}
+
+.work-experience hr {
+  margin-bottom: 16px;
+}
+
+.work-experience .work-experience-txt {
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+
+.work-experience .work-experience-txt .work-experience-txt-intern {
+  margin-bottom: 32px;
+}
+
+.work-experience .work-experience-txt .work-experience-txt-intern h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.work-experience .work-experience-txt .work-experience-txt-intern img {
+  width: 89.5px;
+  margin-bottom: 8px;
+}
+
+.work-experience .work-experience-txt .work-experience-txt-intern p {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  width: 41%;
+}
+
+.work-experience .work-experience-txt .work-experience-txt-others h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.work-experience .work-experience-txt .work-experience-txt-others img {
+  width: 72px;
+  margin-top: -24px;
+  margin-bottom: 8px;
+}
+
+.work-experience .work-experience-txt .work-experience-txt-others p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+footer {
+  background: #415165 0% 0% no-repeat padding-box;
+  padding: 32px 360px 48px;
+}
+
+footer .footer-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+footer .footer-title h3 {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: bold;
+  margin-right: 16px;
+  color: #FFFFFF;
+}
+
+footer .footer-title sub {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+footer hr {
+  margin-bottom: 32px;
+}
+
+footer .footer-txt {
+  text-align: center;
+}
+
+footer .footer-txt p {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+}
+
+footer .footer-txt-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-txt-icon img {
+  width: 48px;
+  margin-right: 24px;
+}
+/*# sourceMappingURL=index.css.map */

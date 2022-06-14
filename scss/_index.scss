@@ -1,0 +1,228 @@
+// header區塊
+header{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 40px;
+    margin-bottom: 48px;
+    h1{
+        font-size: $fs-80;
+        line-height: $lh-95;
+        font-weight: bold;
+        width: 274px;
+        margin-bottom: 24px;
+    }
+    hr{
+        margin-bottom: 48px;
+    }
+    img{
+        width: 324px;
+    }
+}
+
+// main區塊
+main{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.profile{
+    margin-bottom: 80px;
+    .profile-title{
+        display: flex;
+        margin-bottom: 8px;
+        align-items: baseline;
+        h2{
+            font-size: $fs-32;
+            line-height: $lh-48;
+            font-weight: bold;
+            margin-right: 16px;
+        }
+        sub{
+            font-size: $fs-24;
+            line-height: $lh-29;
+            font-weight: bold;
+            color: $color-red;
+        }
+    }
+    .profile-txt{
+        p{
+            font-size: $fs-24;
+            line-height: $lh-36;
+            margin-bottom: 24px;
+        }
+    }
+}
+.education{
+    .education-title{
+        display: flex;
+        margin-bottom: 8px;
+        align-items: baseline;
+        h2{
+            font-size: $fs-32;
+            line-height: $lh-48;
+            font-weight: bold;
+            margin-right: 16px;
+        }
+        sub{
+            font-size: $fs-24;
+            line-height: $lh-29;
+            font-weight: bold;
+            color: $color-red;
+        }
+    }
+    .education-txt{
+        p{
+            font-size: $fs-24;
+            line-height: $lh-36;
+            margin-bottom: 24px;
+        }
+    }
+    .education-skills{
+        background: #415165 0% 0% no-repeat padding-box;
+        width: 100%;
+        margin-top: 72px;
+        padding: 24px 102px 52px;
+        margin-bottom: 80px; 
+        .education-skills-title{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            h3{
+                font-size: $fs-32;
+                line-height: $lh-45;
+                font-weight: bold;
+                color:#FFFFFF ;
+                margin-bottom: 8px;
+                margin-right: 16px;
+            }
+            sub{
+                font-size: $fs-24;
+                line-height: $lh-29;
+                font-weight: bold;
+                color: #FFFFFF;
+            }
+        }
+        hr{
+            margin-bottom: 40px;
+        }
+        .education-skills-txt{
+            width: 224px;
+            margin: 0 auto;
+            padding-left: 24px;
+            border-left: 1px solid #96A9C4;
+        }
+        li{
+            color: #FFFFFF;
+            font-size: $fs-24;
+            line-height: $lh-36;
+            margin-bottom: 20px;
+        }
+    }
+}
+.work-experience{
+    margin-bottom: 72px;
+    .work-experience-title{
+        display: flex;
+        margin-bottom: 8px;
+        align-items: baseline;
+        h2{
+            font-size: $fs-32;
+            line-height: $lh-48;
+            font-weight: bold;
+            margin-right: 16px;
+        }
+        sub{
+            font-size: $fs-24;
+            line-height: $lh-29;
+            font-weight: bold;
+            color: $color-red;
+        }
+    }
+    hr{
+        margin-bottom: 16px;
+    }
+    .work-experience-txt{
+        padding-left: 24px;
+        border-left: 1px solid #96A9C4;
+        .work-experience-txt-intern{
+            margin-bottom: 32px;
+            h3{
+                font-size: $fs-24;
+                line-height: $lh-36;
+                font-weight: bold;
+                margin-bottom: 8px;
+            }
+            img{
+                width: 89.5px;
+                margin-bottom: 8px;
+            }
+            p{
+                font-size: $fs-24;
+                line-height: $lh-30;
+                font-weight: 300;
+                width: 41%;
+            }
+        }
+        .work-experience-txt-others{
+            h3{
+                font-size: $fs-24;
+                line-height: $lh-36;
+                font-weight: bold;
+                margin-bottom: 32px;
+            }
+            img{
+                width: 72px;
+                margin-top: -24px;
+                margin-bottom: 8px;
+            }
+            p{
+                font-size: $fs-20;
+                line-height: $lh-30;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+// footer區塊
+footer{
+    background: #415165 0% 0% no-repeat padding-box;
+    padding: 32px 360px 48px;
+    .footer-title{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        h3{
+            font-size: $fs-32;
+            line-height: $lh-45;
+            font-weight: bold;
+            margin-right: 16px;
+            color: #FFFFFF;
+        }
+        sub{
+            font-size: $fs-24;
+            line-height: $lh-29;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+    }
+    hr{
+        margin-bottom: 32px;
+    }
+    .footer-txt{
+        text-align: center;
+        p{
+            font-size: $fs-24;
+            line-height: $lh-36;
+            margin-bottom: 16px;
+            color: #FFFFFF;
+        }
+    }
+    .footer-txt-icon{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 48px;
+            margin-right: 24px;
+        }
+    }
+}
