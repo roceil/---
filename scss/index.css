@@ -62,6 +62,10 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 .outline {
   outline: 1px solid black;
 }
@@ -118,6 +122,20 @@ header img {
   width: 324px;
 }
 
+@media (max-width: 795px) {
+  header {
+    padding: 0 20px;
+  }
+  header .header-pic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media (max-width: 390px) {
   header {
     text-align: center;
@@ -134,8 +152,13 @@ header img {
     margin-top: 0;
     margin-bottom: 16px;
   }
-  header img {
-    width: 324px;
+  header .header-pic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -341,6 +364,18 @@ main {
   font-weight: 300;
 }
 
+@media (max-width: 795px) {
+  main {
+    padding: 0 20px;
+  }
+  .work-experience .work-experience-txt .work-experience-txt-intern p {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    width: 100%;
+  }
+}
+
 @media (max-width: 390px) {
   main {
     max-width: 1920px;
@@ -413,12 +448,19 @@ footer hr {
 
 footer .footer-txt {
   text-align: center;
+  margin-bottom: 16px;
 }
 
 footer .footer-txt p {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 16px;
+  color: #FFFFFF;
+}
+
+footer .footer-txt a {
+  font-size: 24px;
+  line-height: 36px;
   color: #FFFFFF;
 }
 
@@ -434,6 +476,12 @@ footer .footer-txt-icon {
 footer .footer-txt-icon img {
   width: 48px;
   margin-right: 24px;
+}
+
+@media (max-width: 795px) {
+  footer {
+    padding: 32px 0px 48px;
+  }
 }
 
 @media (max-width: 390px) {
@@ -453,6 +501,9 @@ footer .footer-txt-icon img {
     margin-bottom: 16px;
   }
   footer .footer-txt p {
+    font-size: 16px;
+  }
+  footer .footer-txt a {
     font-size: 16px;
   }
   footer .footer-txt-icon {
