@@ -118,6 +118,27 @@ header img {
   width: 324px;
 }
 
+@media (max-width: 390px) {
+  header {
+    text-align: center;
+    padding: 0 20px;
+  }
+  header h1 {
+    font-size: 50px;
+    line-height: 70px;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 16px;
+  }
+  header hr {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  header img {
+    width: 324px;
+  }
+}
+
 main {
   max-width: 1920px;
   margin: 0 auto;
@@ -320,6 +341,40 @@ main {
   font-weight: 300;
 }
 
+@media (max-width: 390px) {
+  main {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .education .education-skills {
+    padding: 24px 20px 52px;
+  }
+  .education .education-skills .education-skills-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .work-experience {
+    margin-bottom: 72px;
+  }
+  .work-experience .work-experience-title sub {
+    font-size: 20px;
+  }
+  .work-experience .work-experience-txt .work-experience-txt-intern p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+  }
+  .work-experience .work-experience-txt .work-experience-txt-others h3 {
+    font-size: 16px;
+  }
+  .work-experience .work-experience-txt .work-experience-txt-others p {
+    font-size: 16px;
+  }
+}
+
 footer {
   background: #415165 0% 0% no-repeat padding-box;
   padding: 32px 360px 48px;
@@ -379,5 +434,37 @@ footer .footer-txt-icon {
 footer .footer-txt-icon img {
   width: 48px;
   margin-right: 24px;
+}
+
+@media (max-width: 390px) {
+  footer {
+    padding: 10px 20px 20px;
+  }
+  footer .footer-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer hr {
+    margin-bottom: 16px;
+  }
+  footer .footer-txt p {
+    font-size: 16px;
+  }
+  footer .footer-txt-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .footer-txt-icon img {
+    width: 48px;
+    margin-right: 0;
+  }
 }
 /*# sourceMappingURL=index.css.map */
