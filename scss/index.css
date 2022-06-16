@@ -100,7 +100,7 @@ a {
 }
 
 header {
-  max-width: 1920px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-top: 40px;
   margin-bottom: 48px;
@@ -163,7 +163,7 @@ header img {
 }
 
 main {
-  max-width: 1920px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -183,21 +183,21 @@ main {
 
 .profile .profile-title h2 {
   font-size: 32px;
-  line-height: 48px;
+  line-height: 1.5;
   font-weight: bold;
   margin-right: 16px;
 }
 
 .profile .profile-title sub {
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.5;
   font-weight: bold;
   color: #A00404;
 }
 
 .profile .profile-txt p {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   margin-bottom: 24px;
 }
 
@@ -213,33 +213,32 @@ main {
 
 .education .education-title h2 {
   font-size: 32px;
-  line-height: 48px;
+  line-height: 1.5;
   font-weight: bold;
   margin-right: 16px;
 }
 
 .education .education-title sub {
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.5;
   font-weight: bold;
   color: #A00404;
 }
 
 .education .education-txt p {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   margin-bottom: 24px;
 }
 
-.education .education-skills {
+.education-skills {
   background: #415165 0% 0% no-repeat padding-box;
-  width: 100%;
   margin-top: 72px;
   padding: 24px 102px 52px;
   margin-bottom: 80px;
 }
 
-.education .education-skills .education-skills-title {
+.education-skills .education-skills-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -251,37 +250,37 @@ main {
           align-items: baseline;
 }
 
-.education .education-skills .education-skills-title h3 {
+.education-skills .education-skills-title h3 {
   font-size: 32px;
-  line-height: 45px;
+  line-height: 1.5;
   font-weight: bold;
   color: #FFFFFF;
   margin-bottom: 8px;
   margin-right: 16px;
 }
 
-.education .education-skills .education-skills-title sub {
+.education-skills .education-skills-title sub {
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.5;
   font-weight: bold;
   color: #FFFFFF;
 }
 
-.education .education-skills hr {
+.education-skills hr {
   margin-bottom: 40px;
 }
 
-.education .education-skills .education-skills-txt {
+.education-skills .education-skills-txt {
   width: 224px;
   margin: 0 auto;
   padding-left: 24px;
   border-left: 1px solid #96A9C4;
 }
 
-.education .education-skills li {
+.education-skills li {
   color: #FFFFFF;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   margin-bottom: 20px;
 }
 
@@ -301,14 +300,14 @@ main {
 
 .work-experience .work-experience-title h2 {
   font-size: 32px;
-  line-height: 48px;
+  line-height: 1.5;
   font-weight: bold;
   margin-right: 16px;
 }
 
 .work-experience .work-experience-title sub {
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.5;
   font-weight: bold;
   color: #A00404;
 }
@@ -328,7 +327,7 @@ main {
 
 .work-experience .work-experience-txt .work-experience-txt-intern h3 {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -340,14 +339,14 @@ main {
 
 .work-experience .work-experience-txt .work-experience-txt-intern p {
   font-size: 24px;
-  line-height: 30px;
+  line-height: 1.5;
   font-weight: 300;
   width: 41%;
 }
 
 .work-experience .work-experience-txt .work-experience-txt-others h3 {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   font-weight: bold;
   margin-bottom: 32px;
 }
@@ -360,7 +359,7 @@ main {
 
 .work-experience .work-experience-txt .work-experience-txt-others p {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   font-weight: 300;
 }
 
@@ -370,7 +369,7 @@ main {
   }
   .work-experience .work-experience-txt .work-experience-txt-intern p {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 1.5;
     font-weight: 300;
     width: 100%;
   }
@@ -429,7 +428,7 @@ footer .footer-title {
 
 footer .footer-title h3 {
   font-size: 32px;
-  line-height: 45px;
+  line-height: 1.5;
   font-weight: bold;
   margin-right: 16px;
   color: #FFFFFF;
@@ -437,7 +436,7 @@ footer .footer-title h3 {
 
 footer .footer-title sub {
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.5;
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -451,16 +450,16 @@ footer .footer-txt {
   margin-bottom: 16px;
 }
 
-footer .footer-txt p {
+footer .footer-txt li {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   margin-bottom: 16px;
   color: #FFFFFF;
 }
 
 footer .footer-txt a {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   color: #FFFFFF;
 }
 
