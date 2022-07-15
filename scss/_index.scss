@@ -1,353 +1,147 @@
-// header區塊
 header{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-top: 40px;
-    margin-bottom: 48px;
+    margin-bottom: 48px !important;
     h1{
-        font-size: $fs-80;
+        font-size: 80px;
         line-height: $lh-95;
-        font-weight: bold;
-        width: 274px;
-        margin-bottom: 24px;
-    }
-    hr{
+        padding-bottom: 24px;
+        margin-top: 40px;
+        border-bottom: 2px solid black;
         margin-bottom: 48px;
     }
     img{
         width: 324px;
+        height: 324px;
+    }
+    hr{
+        border: 2px solid black;
+        margin-bottom: 48px;
     }
 }
-@media (max-width:795px) {
-    header{
-        padding: 0 20px;
-        .header-pic{
-            display: flex;
-            justify-content: center;
-        }
-    }
+h2{
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    margin-bottom: 16px;
 }
-@media (max-width:390px) {
-    header{
-        text-align: center;
-        padding: 0 20px;
-        h1{
-            font-size: 50px;
-            line-height: 70px;
-            width: 100%;
-            margin-bottom: 8px;
-            margin-top: 16px;
-        }
-        hr{
-            margin-top: 0;
-            margin-bottom: 16px;
-        }
-        .header-pic{
-            display: flex;
-            justify-content: center;
-        }
-    }
-}
-
-// main區塊
-main{
-    max-width: 1200px;
-    margin: 0 auto;
+span{
+    margin-left: 16px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #A00404;
 }
 .profile{
-    margin-bottom: 80px;
-    .profile-title{
-        display: flex;
-        margin-bottom: 8px;
-        align-items: baseline;
-        h2{
-            font-size: $fs-32;
-            line-height: $lh-48;
-            font-weight: bold;
-            margin-right: 16px;
-        }
-        sub{
-            font-size: $fs-24;
-            line-height: $lh-29;
-            font-weight: bold;
-            color: $color-red;
-        }
-    }
-    .profile-txt{
-        p{
-            font-size: $fs-24;
-            line-height: $lh-36;
-            margin-bottom: 24px;
-        }
+    li{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 300;
+        margin-bottom: 24px;
     }
 }
 .education{
-    .education-title{
-        display: flex;
-        margin-bottom: 8px;
-        align-items: baseline;
-        h2{
-            font-size: $fs-32;
-            line-height: $lh-48;
-            font-weight: bold;
-            margin-right: 16px;
-        }
-        sub{
-            font-size: $fs-24;
-            line-height: $lh-29;
-            font-weight: bold;
-            color: $color-red;
-        }
-    }
-    .education-txt{
-        p{
-            font-size: $fs-24;
-            line-height: $lh-36;
-            margin-bottom: 24px;
-        }
+    margin-top: 64px;
+    margin-bottom: 64px;
+    li{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 300;
+        margin-bottom: 24px;
     }
 }
-.education-skills{
-    background: #415165 0% 0% no-repeat padding-box;
-    margin-top: 72px;
-    padding: 24px 102px 52px;
-    margin-bottom: 80px; 
-    .education-skills-title{
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        h3{
-            font-size: $fs-32;
-            line-height: $lh-45;
-            font-weight: bold;
-            color:#FFFFFF ;
-            margin-bottom: 8px;
-            margin-right: 16px;
-        }
-        sub{
-            font-size: $fs-24;
-            line-height: $lh-29;
-            font-weight: bold;
-            color: #FFFFFF;
-        }
-    }
-    hr{
-        margin-bottom: 40px;
-    }
-    .education-skills-txt{
-        width: 224px;
+.skill{
+    text-align: center;
+    background-color:#415165 ;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 64px;
+    h2{
+        font-size: 32px;
+        line-height: 48px;
+        color:#FFFFFF ;
+        border-bottom: 1px solid white;
+        margin-bottom: 40px !important;
+        width: 996px;
         margin: 0 auto;
-        padding-left: 24px;
-        border-left: 1px solid #96A9C4;
+    }
+    span{
+        color: #FFFFFF;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    ul{
+        border-left: 1px solid white;
+        padding-left: 23px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px !important;
     }
     li{
+        font-size: 24px;
+        line-height: 36px;
         color: #FFFFFF;
-        font-size: $fs-24;
-        line-height: $lh-36;
-        margin-bottom: 20px;
-    }
-}
-.work-experience{
-    margin-bottom: 72px;
-    .work-experience-title{
-        display: flex;
+        font-weight: 300;
         margin-bottom: 8px;
-        align-items: baseline;
-        h2{
-            font-size: $fs-32;
-            line-height: $lh-48;
-            font-weight: bold;
-            margin-right: 16px;
-        }
-        sub{
-            font-size: $fs-24;
-            line-height: $lh-29;
-            font-weight: bold;
-            color: $color-red;
-        }
     }
-    hr{
-        margin-bottom: 16px;
-    }
-    .work-experience-txt{
-        padding-left: 24px;
+}
+.workexperince{
+    margin-bottom: 80px;
+    ul{
         border-left: 1px solid #96A9C4;
-        .work-experience-txt-intern{
-            margin-bottom: 32px;
-            h3{
-                font-size: $fs-24;
-                line-height: $lh-36;
-                font-weight: bold;
-                margin-bottom: 8px;
-            }
-            img{
-                width: 89.5px;
-                margin-bottom: 8px;
-            }
-            p{
-                font-size: $fs-24;
-                line-height: $lh-30;
-                font-weight: 300;
-                width: 41%;
-            }
-        }
-        .work-experience-txt-others{
-            h3{
-                font-size: $fs-24;
-                line-height: $lh-36;
-                font-weight: bold;
-                margin-bottom: 32px;
-            }
-            img{
-                width: 72px;
-                margin-top: -24px;
-                margin-bottom: 8px;
-            }
-            p{
-                font-size: $fs-20;
-                line-height: $lh-30;
-                font-weight: 300;
-            }
-        }
+        padding-left: 24px;
+        margin-left: 20px;
+    }
+    li{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    p{
+        width: 642px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+        margin-bottom: 24px;
     }
 }
-@media (max-width:795px) {
-    main{
-        padding: 0 20px;
-    }
-    .work-experience{
-        .work-experience-txt{
-            .work-experience-txt-intern{
-                p{
-                    font-size: $fs-24;
-                    line-height: $lh-30;
-                    font-weight: 300;
-                    width: 100%;
-                }
-            }
-        }
-    }
+.contact{
+    background-color: #415165;
+    text-align: center;
+    padding-top: 24px;
 }
-@media (max-width:390px) {
-    main{
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 0 20px;
+.contact-title{
+    h2{
+        font-size: 32px;
+        line-height: 48px;
+        color:#FFFFFF ;
+        border-bottom: 1px solid white;
+        margin-bottom: 24px;
     }
-    .education{
+    span{
+        color: #FFFFFF;
+        font-size: 24px;
+        line-height: 36px;
     }
-    .education-skills{
-        padding: 24px 20px 52px;
-        .education-skills-title{
-            flex-direction: column;
-    }
-    }
-    .work-experience{
-        margin-bottom: 72px;
-        .work-experience-title{
-            sub{
-                font-size: 20px;
-            }
-        }
-        .work-experience-txt{
-            .work-experience-txt-intern{
-                p{
-                    font-size: 16px;
-                    font-weight: 400;
-                    width: 100%;
-                }
-            }
-            .work-experience-txt-others{
-                h3{
-                    font-size: 16px;
-                }
-                p{
-                    font-size: 16px;
-                }
-            }
-        }
-    }
-}
-
-// footer區塊
-footer{
-    background: #415165 0% 0% no-repeat padding-box;
-    padding: 32px 360px 48px;
-    .footer-title{
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-        h3{
-            font-size: $fs-32;
-            line-height: $lh-45;
-            font-weight: bold;
-            margin-right: 16px;
-            color: #FFFFFF;
-        }
-        sub{
-            font-size: $fs-24;
-            line-height: $lh-29;
-            font-weight: bold;
-            color: #FFFFFF;
-        }
-    }
-    hr{
-        margin-bottom: 32px;
-    }
-    .footer-txt{
-        text-align: center;
+    li{
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 36px;
+        color: #FFFFFF;
         margin-bottom: 16px;
-        li{
-            font-size: $fs-24;
-            line-height: $lh-36;
-            margin-bottom: 16px;
-            color: #FFFFFF;
-        }
-        a{
-            font-size: $fs-24;
-            line-height: $lh-36;
-            color: #FFFFFF;
-        }
     }
-    .footer-txt-icon{
-        display: flex;
-        justify-content: center;
-        img{
-            width: 48px;
-            margin-right: 24px;
-        }
+    a{
+        color: #FFFFFF;
     }
 }
-@media (max-width:795px) {
-    footer{
-        padding: 32px 0px 48px;
-    }
-}
-@media (max-width:390px) {
-    footer{
-        padding:10px 20px 20px;
-        .footer-title{
-            flex-direction: column;
-            align-items: center;
-        }
-        hr{
-            margin-bottom: 16px;
-        }
-        .footer-txt{
-            p{
-                font-size: 16px;
-            }
-            a{
-                font-size: 16px;
-            }
-        }
-        .footer-txt-icon{
-            display: flex;
-            justify-content: space-around;
-            img{
-                width: 48px;
-                margin-right: 0;
-            }
-        }
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 48px;
+        height: 48px;
+        margin-right: 24px;
     }
 }
